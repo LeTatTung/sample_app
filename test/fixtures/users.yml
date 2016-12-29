@@ -1,0 +1,4 @@
+letattung:
+  name: Le Tat Tung
+  email: letattung@gmail.com
+  password_digest: <%= User.digest "password" %>
